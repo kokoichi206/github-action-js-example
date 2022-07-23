@@ -1,0 +1,13 @@
+name: 'javascript action example'
+author: 'Takahiro Tominaga'
+description: 'Custom github-action with TypeScript'
+
+inputs:
+  name:
+    description: 'Name to greet'
+    required: false
+    default: 'John Doe'
+
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

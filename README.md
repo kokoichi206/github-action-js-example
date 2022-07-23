@@ -20,7 +20,7 @@ $ npm i -D typescript @types/node
 ```
 
 2. Prepare `tsconfig.json`, `tsconfig.build.json`
-3. package.json を編集
+3. Edit package.json
 
 ```sh
 $ cat package.json
@@ -28,4 +28,11 @@ $ cat package.json
   "scripts": {
     "build": "tsc -p tsconfig.build.json"
   },
+```
+
+4. Install packages for github-actions
+
+```sh
+npm install @actions/core
+npm install @actions/github
 ```
