@@ -43,3 +43,16 @@ jobs:
 
       - name: Check my action
         uses: kokoichi206/github-action-js-example@main
+
+  action-with-name:
+    name: Action-check-with-name
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Check my action
+        uses: kokoichi206/github-action-js-example@main
+        with:
+          name: kokoichi
