@@ -1,0 +1,23 @@
+{
+  "name": "github-action-js-example",
+  "version": "0.0.0",
+  "description": "JavaScript action example",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kokoichi206/github-action-js-example.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kokoichi206/github-action-js-example/issues"
+  },
+  "homepage": "https://github.com/kokoichi206/github-action-js-example#readme",
+  "devDependencies": {
+    "@types/node": "^18.0.6",
+    "typescript": "^4.7.4"
+  }
+}
